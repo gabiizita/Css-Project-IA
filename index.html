@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Código CSS</title>
+</head>
+
+<body>
+    <main>
+        <h1>
+            Gerador de Código <span>CSS</span> 
+        </h1>
+        
+        <p>
+            Crie códigos prontos para seu <span>CSS</span> com IA
+        </p>
+
+        <!-- Entrada de texto do usuário -->
+        <textarea class="caixa" rows="5" placeholder="Digite sua ideia aqui..."></textarea>
+
+        <!-- Botão de ação -->
+        <button class="botao" id="botao" onclick="gerarCodigo()">
+            Gerar Código 🌟
+        </button>
+
+        <div class="caixa-css">
+            <!-- Caixa onde o código gerado pela IA irá aparecer-->
+            <div>
+            <h2>Código</h2>
+            <p class="caixa-resultado" id="blocoCodigo"></p>
+            </div>
+
+             <!-- Caixa onde o a ideia gerada pela IA irá aparecer-->
+            <div>
+            <h2>Preview</h2>
+            <iframe class="caixa-resultado" id="resultadoCodigo"></iframe>
+            </div>
+        </div>
+
+    </main>
+
+    
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
